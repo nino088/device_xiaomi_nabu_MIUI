@@ -75,7 +75,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 #TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/nabu
+TARGET_KERNEL_SOURCE := android/kernel/xiaomi/nabu
 TARGET_KERNEL_CONFIG := vendor/xiaomi/nabu_inflated_defconfig
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
